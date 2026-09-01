@@ -1,125 +1,172 @@
 const perguntasPT = [
   {
     pergunta:
-      'Qual é a classe gramatical da palavra "rapidamente" na frase "Ele correu rapidamente"?',
-    alternativas: ["Adjetivo", "Advérbio", "Substantivo", "Verbo", "Pronome"],
-    resposta: "Advérbio",
-    explicacao:
-      "“Rapidamente” modifica o verbo “correu”, indicando o modo da ação. Palavras que modificam verbo, adjetivo ou outro advérbio são advérbios.",
-    motivacao:
-      "Errou dessa vez, mas tudo bem — cada erro é um passo real no aprendizado. Continue, você está evoluindo.",
-  },
-  {
-    pergunta: "Qual alternativa apresenta uma palavra escrita corretamente?",
+      'Leia: "Embora estivesse cansado, Pedro continuou estudando para a prova." Qual é a relação de sentido estabelecida por "embora"?',
     alternativas: [
-      "a) Excessão",
-      "b) Exceção",
-      "c) Excesssão",
-      "d) Exeção",
-      "e) Excessão",
+      "Causa.",
+      "Concessão.",
+      "Consequência.",
+      "Finalidade.",
+      "Condição.",
     ],
-    resposta: "b) Exceção",
+    resposta: "Concessão.",
     explicacao:
-      "A forma correta é “exceção”, com “xc” e “ç”. As outras opções apresentam erros ortográficos comuns dessa palavra.",
+      'A palavra "embora" introduz uma ideia de concessão, indicando um fato que poderia dificultar a ação principal, mas não a impede.',
     motivacao:
-      "Não desanime por errar ortografia: prática constante transforma dúvida em acerto. Você consegue.",
+      "Reconhecer as relações de sentido entre as orações ajuda muito na interpretação de textos. Continue praticando.",
   },
-  {
-    pergunta: 'Na frase "Maria comprou um livro", qual é o objeto direto?',
-    alternativas: [
-      "a) Maria",
-      "b) Comprou",
-      "c) Um",
-      "d) Livro",
-      "e) Maria comprou",
-    ],
-    resposta: "d) Livro",
-    explicacao:
-      "Objeto direto é o termo que completa o sentido do verbo sem preposição obrigatória. Em “Maria comprou um livro”, “livro” completa o verbo “comprou”.",
-    motivacao:
-      "Erros em sintaxe são normais no treino. Persistindo, você vai começar a identificar essas funções com muito mais facilidade.",
-  },
-  {
-    pergunta: 'Qual é o plural correto de "cidadão"?',
-    alternativas: [
-      "a) Cidadões",
-      "b) Cidadãos",
-      "c) Cidadães",
-      "d) Cidadãoses",
-      "e) Cidadans",
-    ],
-    resposta: "b) Cidadãos",
-    explicacao:
-      "“Cidadão” forma plural em “-ãos”: “cidadãos”. Em português, palavras terminadas em “-ão” podem variar no plural (ãos, ões, ães), e esta segue o padrão “-ãos”.",
-    motivacao:
-      "Você errou agora, mas está treinando exatamente o tipo de detalhe que melhora muito seu português. Siga firme.",
-  },
-  {
-    pergunta: "Qual palavra é um pronome pessoal do caso reto?",
-    alternativas: ["Meu", "Aquele", "Eu", "Quem", "Se"],
-    resposta: "Eu",
-    explicacao:
-      "“Eu” é pronome pessoal do caso reto, usado normalmente como sujeito da oração. Ex.: “Eu estudei para a prova”.",
-    motivacao:
-      "Não acertou desta vez? Sem problema. Cada tentativa fortalece sua base gramatical. Continue praticando.",
-  },
+
   {
     pergunta:
-      'Em "Os alunos estudaram para a prova", qual é o sujeito da oração?',
+      "Qual alternativa apresenta uma figura de linguagem conhecida como metáfora?",
     alternativas: [
-      "Estudaram",
-      "Para a prova",
-      "A prova",
-      "Os alunos",
-      "Alunos estudaram",
+      '"O aluno estudou durante três horas."',
+      '"O professor chegou cedo à escola."',
+      '"O livro possui duzentas páginas."',
+      '"Aquela menina é uma estrela."',
+      '"A prova começou às oito horas."',
     ],
-    resposta: "Os alunos",
+    resposta: '"Aquela menina é uma estrela."',
     explicacao:
-      "Sujeito é quem pratica a ação verbal. Na frase, quem “estudaram” foram “os alunos”, portanto esse é o sujeito.",
+      'A palavra "estrela" é usada em sentido figurado para indicar que a menina se destaca ou possui talento. Isso caracteriza uma metáfora.',
     motivacao:
-      "Respira e segue: errar análise sintática no começo é comum. Você está no caminho certo do aprendizado.",
+      "As figuras de linguagem aparecem constantemente em textos, músicas e conversas. Aprender a identificá-las melhora sua interpretação.",
   },
-  {
-    pergunta: "Qual alternativa apresenta uma palavra oxítona?",
-    alternativas: ["Lâmpada", "Médico", "Café", "Árvore", "Fácil"],
-    resposta: "Café",
-    explicacao:
-      "Oxítona é a palavra cuja sílaba tônica é a última. Em “café”, a tonicidade recai em “fé”, a última sílaba.",
-    motivacao:
-      "Errou a tonicidade? Acontece. Com repetição, seu ouvido e sua percepção das sílabas tônicas vão melhorar muito.",
-  },
-  {
-    pergunta: 'Qual é o antônimo de "generoso"?',
-    alternativas: ["Bondoso", "Egoísta", "Gentil", "Caridoso", "Amável"],
-    resposta: "Egoísta",
-    explicacao:
-      "“Generoso” indica quem compartilha e pensa no outro; o oposto é “egoísta”, que prioriza os próprios interesses.",
-    motivacao:
-      "Não acertou agora, mas está expandindo vocabulário a cada rodada. Isso faz diferença enorme no médio prazo.",
-  },
+
   {
     pergunta:
-      "Qual alternativa apresenta uma frase com concordância verbal correta?",
+      "Qual alternativa apresenta uma oração com sujeito indeterminado?",
     alternativas: [
-      "Os menino brincou no parque.",
-      "As crianças brinca no parque.",
-      "Os alunos estudam para a prova.",
-      "A meninas estudaram ontem.",
-      "Nós vai ao cinema.",
+      "Os alunos fizeram a atividade.",
+      "Maria comprou um livro.",
+      "O professor explicou o conteúdo.",
+      "João terminou o trabalho.",
+      "Precisa-se de funcionários experientes.",
     ],
-    resposta: "Os alunos estudam para a prova.",
+    resposta: "Precisa-se de funcionários experientes.",
     explicacao:
-      "Na concordância verbal, o verbo deve concordar com o sujeito em número e pessoa. “Os alunos” (plural) exige “estudam” (plural).",
+      'Na frase "Precisa-se de funcionários experientes", não é possível determinar quem pratica a ação. O "se" funciona como índice de indeterminação do sujeito.',
     motivacao:
-      "Concordância verbal exige atenção mesmo. Errou? Ótimo sinal de que você está enfrentando conteúdos que fazem evoluir.",
+      "Identificar o sujeito ajuda a compreender a estrutura das frases. Continue praticando análise sintática.",
   },
+
   {
-    pergunta: 'Qual é o sinônimo mais adequado de "rápido"?',
-    alternativas: ["Lento", "Veloz", "Fraco", "Pesado", "Distante"],
-    resposta: "Veloz",
+    pergunta:
+      'Na frase "Ele estudou bastante, portanto conseguiu uma boa nota", a palavra "portanto" estabelece uma relação de:',
+    alternativas: [
+      "Oposição.",
+      "Explicação.",
+      "Comparação.",
+      "Condição.",
+      "Conclusão.",
+    ],
+    resposta: "Conclusão.",
     explicacao:
-      "“Veloz” tem sentido equivalente a “rápido”, ambos indicam algo que acontece com grande velocidade.",
+      'A palavra "portanto" introduz uma conclusão relacionada à informação apresentada anteriormente: ele estudou bastante e, como resultado, conseguiu uma boa nota.',
     motivacao:
-      "Tudo bem não acertar sempre. O importante é manter constância — é assim que o vocabulário se fixa de verdade.",
+      "Conjunções são fundamentais para entender como as ideias de um texto se relacionam. Continue observando essas palavras durante suas leituras.",
+  },
+
+  {
+    pergunta:
+      "Qual alternativa apresenta uma característica típica do gênero textual artigo de opinião?",
+    alternativas: [
+      "Defender um ponto de vista utilizando argumentos.",
+      "Apresentar apenas informações sem qualquer posicionamento.",
+      "Contar exclusivamente acontecimentos fictícios.",
+      "Apresentar somente instruções para realizar uma tarefa.",
+      "Registrar exclusivamente dados pessoais do autor.",
+    ],
+    resposta: "Defender um ponto de vista utilizando argumentos.",
+    explicacao:
+      "O artigo de opinião apresenta o posicionamento do autor sobre determinado assunto e utiliza argumentos para defender essa perspectiva.",
+    motivacao:
+      "Saber reconhecer os gêneros textuais facilita a interpretação e também melhora sua capacidade de escrever diferentes tipos de texto.",
+  },
+
+  {
+    pergunta:
+      'Leia: "O vento sussurrava entre as árvores durante a noite." Qual figura de linguagem aparece nessa frase?',
+    alternativas: [
+      "Ironia.",
+      "Hipérbole.",
+      "Antítese.",
+      "Personificação.",
+      "Eufemismo.",
+    ],
+    resposta: "Personificação.",
+    explicacao:
+      'O verbo "sussurrava" atribui ao vento uma característica própria de seres humanos. Essa atribuição de características humanas a seres não humanos é chamada de personificação.',
+    motivacao:
+      "As figuras de linguagem tornam os textos mais expressivos. Identificá-las ajuda você a perceber sentidos que vão além do significado literal.",
+  },
+
+  {
+    pergunta:
+      "Em qual alternativa a palavra destacada exerce função de advérbio?",
+    alternativas: [
+      'O aluno comprou um livro "novo".',
+      'A menina ficou "feliz".',
+      'O estudante realizou uma "boa" prova.',
+      'A escola possui uma biblioteca "grande".',
+      'O professor explicou a matéria "claramente".',
+    ],
+    resposta: 'O professor explicou a matéria "claramente".',
+    explicacao:
+      'A palavra "claramente" modifica o verbo "explicou", indicando de que maneira a ação foi realizada. Por isso, exerce função de advérbio.',
+    motivacao:
+      "Reconhecer as classes gramaticais é uma base importante para compreender a estrutura da língua portuguesa.",
+  },
+
+  {
+    pergunta:
+      "Qual alternativa apresenta uma característica do movimento literário Romantismo no Brasil?",
+    alternativas: [
+      "Valorização da objetividade científica acima dos sentimentos.",
+      "Rejeição completa da subjetividade.",
+      "Uso exclusivo de temas relacionados à tecnologia.",
+      "Idealização do amor e valorização dos sentimentos.",
+      "Valorização apenas de personagens da vida urbana moderna.",
+    ],
+    resposta: "Idealização do amor e valorização dos sentimentos.",
+    explicacao:
+      "O Romantismo valorizou a subjetividade, os sentimentos, a idealização amorosa e, em diferentes momentos, a natureza e a identidade nacional.",
+    motivacao:
+      "Conhecer as características dos movimentos literários ajuda a entender melhor poemas, romances e outros textos.",
+  },
+
+  {
+    pergunta:
+      'Na frase "Que ótimo! Você chegou duas horas atrasado.", há uma relação de sentido que sugere:',
+    alternativas: [
+      "Ironia.",
+      "Comparação.",
+      "Explicação.",
+      "Certeza científica.",
+      "Literalidade absoluta.",
+    ],
+    resposta: "Ironia.",
+    explicacao:
+      'A expressão "Que ótimo!" normalmente indica algo positivo, mas, nesse contexto, é usada para transmitir justamente o contrário, já que a pessoa chegou atrasada. Isso caracteriza ironia.',
+    motivacao:
+      "A linguagem nem sempre deve ser interpretada literalmente. Observar o contexto é essencial para compreender o verdadeiro sentido de uma frase.",
+  },
+
+  {
+    pergunta:
+      "Qual alternativa apresenta uma característica da variação linguística?",
+    alternativas: [
+      "A língua é utilizada exatamente da mesma maneira por todos os falantes.",
+      "Apenas a norma-padrão pode ser considerada uma forma legítima de comunicação.",
+      "A maneira de falar pode variar de acordo com região, grupo social e situação.",
+      "As diferenças regionais indicam necessariamente erros gramaticais.",
+      "A linguagem utilizada na internet é sempre inadequada.",
+    ],
+    resposta:
+      "A maneira de falar pode variar de acordo com região, grupo social e situação.",
+    explicacao:
+      "A língua apresenta diferentes formas de uso. Essas variações podem estar relacionadas à região, ao grupo social, à época e à situação comunicativa.",
+    motivacao:
+      "Compreender a diversidade linguística ajuda a evitar preconceitos e permite escolher a linguagem mais adequada para cada situação.",
   },
 ];
