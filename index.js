@@ -1,7 +1,7 @@
 const startQuiz = document.getElementById("startQuiz");
 const buttonRunners = document.getElementById("runners");
 
-const runnerSound = new Audio("./audios/runners.mp3");
+const runnerSound = new Audio("./sons/runners.mp3");
 
 function runnersAudio() {
   startQuiz.style.display = "none"; // garante que começa escondido
