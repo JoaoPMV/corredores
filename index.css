@@ -4,36 +4,58 @@
   box-sizing: border-box;
 }
 
+.cima {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+
+}
+
 .instructions {
   font-family: "Inter", sans-serif;
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-  background-image: url("./images/background.jpg");
+  background-image: url("./images/corredoresDoMal.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  gap: 1.2rem;
+
+}
+
+#runners {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: red;
+  font-size: 25px;
+  background-color: white;
+  border: none;
+}
+
+#startQuiz {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: red;
+  font-size: 25px;
+  background-color: white;
+  border: none;
+  display: none;
+  margin-top: 41rem;
 }
 
 .instructions h1 {
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
-  color: #334155;
-}
+  color: white;
 
-.instructions p {
-
-  line-height: 1.75;
-  color: #334155;
-  text-align: center;
-  margin: 0 1rem
 }
 
 .instructions a {
+
   align-self: center;
   text-decoration: none;
   border: 1px solid rgb(64, 64, 146);
@@ -56,13 +78,13 @@
 
 @media (min-width: 769px) {
 
-  .instructions {
-
-    gap: 2rem;
-  }
-
   .instructions p {
     width: 680px;
+  }
+
+  #startQuiz {
+    display: none;
+    margin-top: 2rem;
   }
 
 

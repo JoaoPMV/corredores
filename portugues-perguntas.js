@@ -1,172 +1,217 @@
 const perguntasPT = [
   {
     pergunta:
-      '1 ) Leia: "Embora estivesse cansado, Pedro continuou estudando para a prova." Qual é a relação de sentido estabelecida por "embora"?',
-    alternativas: [
-      "Causa.",
-      "Concessão.",
-      "Consequência.",
-      "Finalidade.",
-      "Condição.",
-    ],
-    resposta: "Concessão.",
-    explicacao:
-      'A palavra "embora" introduz uma ideia de concessão, indicando um fato que poderia dificultar a ação principal, mas não a impede.',
-    motivacao:
-      "Reconhecer as relações de sentido entre as orações ajuda muito na interpretação de textos. Continue praticando.",
-  },
+      "1 ) Um corredor costuma fazer seus treinos leves em um ritmo confortável. Qual é uma característica esperada desse tipo de treino?",
 
-  {
-    pergunta:
-      "Qual alternativa apresenta uma figura de linguagem conhecida como metáfora?",
     alternativas: [
-      '"O aluno estudou durante três horas."',
-      '"O professor chegou cedo à escola."',
-      '"O livro possui duzentas páginas."',
-      '"Aquela menina é uma estrela."',
-      '"A prova começou às oito horas."',
+      "Permitir conversar com relativa facilidade durante a maior parte do treino.",
+      "Exigir esforço máximo desde o primeiro quilômetro.",
+      "Ser realizado sempre acima do ritmo de prova de 5 km.",
+      "Levar rapidamente à exaustão muscular.",
+      "Manter a frequência cardíaca próxima do máximo.",
     ],
-    resposta: '"Aquela menina é uma estrela."',
-    explicacao:
-      'A palavra "estrela" é usada em sentido figurado para indicar que a menina se destaca ou possui talento. Isso caracteriza uma metáfora.',
-    motivacao:
-      "As figuras de linguagem aparecem constantemente em textos, músicas e conversas. Aprender a identificá-las melhora sua interpretação.",
-  },
 
-  {
-    pergunta:
-      "Qual alternativa apresenta uma oração com sujeito indeterminado?",
-    alternativas: [
-      "Os alunos fizeram a atividade.",
-      "Maria comprou um livro.",
-      "O professor explicou o conteúdo.",
-      "João terminou o trabalho.",
-      "Precisa-se de funcionários experientes.",
-    ],
-    resposta: "Precisa-se de funcionários experientes.",
-    explicacao:
-      'Na frase "Precisa-se de funcionários experientes", não é possível determinar quem pratica a ação. O "se" funciona como índice de indeterminação do sujeito.',
-    motivacao:
-      "Identificar o sujeito ajuda a compreender a estrutura das frases. Continue praticando análise sintática.",
-  },
-
-  {
-    pergunta:
-      'Na frase "Ele estudou bastante, portanto conseguiu uma boa nota", a palavra "portanto" estabelece uma relação de:',
-    alternativas: [
-      "Oposição.",
-      "Explicação.",
-      "Comparação.",
-      "Condição.",
-      "Conclusão.",
-    ],
-    resposta: "Conclusão.",
-    explicacao:
-      'A palavra "portanto" introduz uma conclusão relacionada à informação apresentada anteriormente: ele estudou bastante e, como resultado, conseguiu uma boa nota.',
-    motivacao:
-      "Conjunções são fundamentais para entender como as ideias de um texto se relacionam. Continue observando essas palavras durante suas leituras.",
-  },
-
-  {
-    pergunta:
-      "Qual alternativa apresenta uma característica típica do gênero textual artigo de opinião?",
-    alternativas: [
-      "Defender um ponto de vista utilizando argumentos.",
-      "Apresentar apenas informações sem qualquer posicionamento.",
-      "Contar exclusivamente acontecimentos fictícios.",
-      "Apresentar somente instruções para realizar uma tarefa.",
-      "Registrar exclusivamente dados pessoais do autor.",
-    ],
-    resposta: "Defender um ponto de vista utilizando argumentos.",
-    explicacao:
-      "O artigo de opinião apresenta o posicionamento do autor sobre determinado assunto e utiliza argumentos para defender essa perspectiva.",
-    motivacao:
-      "Saber reconhecer os gêneros textuais facilita a interpretação e também melhora sua capacidade de escrever diferentes tipos de texto.",
-  },
-
-  {
-    pergunta:
-      'Leia: "O vento sussurrava entre as árvores durante a noite." Qual figura de linguagem aparece nessa frase?',
-    alternativas: [
-      "Ironia.",
-      "Hipérbole.",
-      "Antítese.",
-      "Personificação.",
-      "Eufemismo.",
-    ],
-    resposta: "Personificação.",
-    explicacao:
-      "Essa Atribuir de características humanas a seres não humanos é chamada de personificação.",
-    motivacao:
-      "As figuras de linguagem tornam os textos mais expressivos. Identificá-las ajuda você a perceber sentidos que vão além do significado literal.",
-  },
-
-  {
-    pergunta:
-      "Em qual alternativa a palavra destacada exerce função de advérbio?",
-    alternativas: [
-      'O aluno comprou um livro "novo".',
-      'A menina ficou "feliz".',
-      'O estudante realizou uma "boa" prova.',
-      'A escola possui uma biblioteca "grande".',
-      'O professor explicou a matéria "claramente".',
-    ],
-    resposta: 'O professor explicou a matéria "claramente".',
-    explicacao:
-      'A palavra "claramente" modifica o verbo "explicou", indicando de que maneira a ação foi realizada. Por isso, exerce função de advérbio.',
-    motivacao:
-      "Reconhecer as classes gramaticais é uma base importante para compreender a estrutura da língua portuguesa.",
-  },
-
-  {
-    pergunta:
-      "Qual alternativa apresenta uma característica do movimento literário Romantismo no Brasil?",
-    alternativas: [
-      "Valorização da objetividade científica acima dos sentimentos.",
-      "Rejeição completa da subjetividade.",
-      "Uso exclusivo de temas relacionados à tecnologia.",
-      "Idealização do amor e valorização dos sentimentos.",
-      "Valorização apenas de personagens da vida urbana moderna.",
-    ],
-    resposta: "Idealização do amor e valorização dos sentimentos.",
-    explicacao:
-      "O Romantismo valorizou a subjetividade, os sentimentos, a idealização amorosa e, em diferentes momentos, a natureza e a identidade nacional.",
-    motivacao:
-      "Conhecer as características dos movimentos literários ajuda a entender melhor poemas, romances e outros textos.",
-  },
-
-  {
-    pergunta:
-      'Na frase "Que ótimo! Você chegou duas horas atrasado.", há uma relação de sentido que sugere:',
-    alternativas: [
-      "Ironia.",
-      "Comparação.",
-      "Explicação.",
-      "Certeza científica.",
-      "Literalidade absoluta.",
-    ],
-    resposta: "Ironia.",
-    explicacao:
-      'A expressão "Que ótimo!" normalmente indica algo positivo, mas, nesse contexto, é usada para transmitir justamente o contrário, já que a pessoa chegou atrasada. Isso caracteriza ironia.',
-    motivacao:
-      "A linguagem nem sempre deve ser interpretada literalmente. Observar o contexto é essencial para compreender o verdadeiro sentido de uma frase.",
-  },
-
-  {
-    pergunta:
-      "Qual alternativa apresenta uma característica da variação linguística?",
-    alternativas: [
-      "A língua é utilizada exatamente da mesma maneira por todos os falantes.",
-      "Apenas a norma-padrão é considerada uma forma legítima de comunicação.",
-      "A maneira de falar pode variar de acordo com região, grupo social e situação.",
-      "As diferenças regionais indicam necessariamente erros gramaticais.",
-      "A linguagem utilizada na internet é sempre inadequada.",
-    ],
     resposta:
-      "A maneira de falar pode variar de acordo com região, grupo social e situação.",
+      "Permitir conversar com relativa facilidade durante a maior parte do treino.",
+
     explicacao:
-      "A língua apresenta diferentes formas de uso. Essas variações podem estar relacionadas à região, ao grupo social, à época e à situação comunicativa.",
+      "Treinos leves são realizados em intensidade controlada, permitindo conversar com relativa facilidade e acumular volume sem gerar uma fadiga excessiva.",
+
     motivacao:
-      "Compreender a diversidade linguística ajuda a evitar preconceitos e permite escolher a linguagem mais adequada para cada situação.",
+      "Nem todo treino precisa ser difícil. Saber controlar a intensidade é uma habilidade importante para qualquer corredor.",
+  },
+
+  {
+    pergunta:
+      "2 ) Um corredor percorre 10 km em 60 minutos. Qual foi seu pace médio?",
+
+    alternativas: [
+      "5:00 min/km.",
+      "5:30 min/km.",
+      "6:00 min/km.",
+      "6:30 min/km.",
+      "7:00 min/km.",
+    ],
+
+    resposta: "6:00 min/km.",
+
+    explicacao:
+      "O pace é calculado dividindo o tempo total pela distância. Nesse caso, 60 minutos divididos por 10 km resultam em 6 minutos por quilômetro.",
+
+    motivacao:
+      "Saber calcular o pace ajuda a acompanhar sua evolução e planejar melhor seus treinos e provas.",
+  },
+
+  {
+    pergunta:
+      "3 ) Durante uma corrida de longa distância, um corredor começa muito rápido e precisa diminuir bastante o ritmo na segunda metade. Essa estratégia é conhecida como:",
+
+    alternativas: [
+      "Negative split.",
+      "Pacing progressivo.",
+      "Positive split.",
+      "Tapering.",
+      "Treino intervalado.",
+    ],
+
+    resposta: "Positive split.",
+
+    explicacao:
+      "Positive split ocorre quando o corredor realiza a primeira parte da prova mais rápido do que a segunda, geralmente diminuindo o ritmo ao longo da prova.",
+
+    motivacao:
+      "Distribuir bem o esforço é essencial em provas longas. O ritmo inicial pode determinar como você chegará aos quilômetros finais.",
+  },
+
+  {
+    pergunta:
+      "4 ) Qual é uma das principais finalidades de um treino longo na preparação para provas de resistência?",
+
+    alternativas: [
+      "Treinar apenas a velocidade máxima.",
+      "Desenvolver resistência para sustentar esforços prolongados.",
+      "Substituir todos os outros tipos de treino.",
+      "Fazer o corredor atingir a frequência cardíaca máxima.",
+      "Treinar exclusivamente a técnica de corrida.",
+    ],
+
+    resposta: "Desenvolver resistência para sustentar esforços prolongados.",
+
+    explicacao:
+      "O treino longo aumenta a capacidade de permanecer correndo por períodos prolongados e é especialmente importante na preparação para provas como meia maratona e maratona.",
+
+    motivacao:
+      "A resistência é construída com consistência. Cada treino longo bem executado contribui para aumentar sua capacidade de correr distâncias maiores.",
+  },
+
+  {
+    pergunta:
+      "5 ) Um corredor quer melhorar seu desempenho nos 5 km. Qual treino tende a ser mais específico para desenvolver sua capacidade de correr em alta intensidade?",
+
+    alternativas: [
+      "Uma caminhada leve de 20 minutos.",
+      "Uma corrida contínua muito lenta.",
+      "Um treino intervalado com repetições rápidas e recuperação controlada.",
+      "Um dia inteiro de descanso.",
+      "Uma corrida muito longa em ritmo confortável.",
+    ],
+
+    resposta:
+      "Um treino intervalado com repetições rápidas e recuperação controlada.",
+
+    explicacao:
+      "Treinos intervalados permitem realizar períodos de corrida em intensidade elevada, com recuperação entre as repetições, sendo úteis para desenvolver velocidade e capacidade de sustentar esforços intensos.",
+
+    motivacao:
+      "Variar os estímulos de treinamento ajuda o corredor a desenvolver diferentes capacidades físicas.",
+  },
+
+  {
+    pergunta:
+      "6 ) Um corredor aumenta sua distância semanal de 30 km para 50 km de uma vez. Qual é o principal problema dessa estratégia?",
+
+    alternativas: [
+      "O aumento pode ser grande demais para uma única semana e elevar o risco de excesso de carga.",
+      "A distância de 50 km é necessariamente insuficiente para qualquer corredor.",
+      "O corredor obrigatoriamente perderá velocidade.",
+      "Treinos acima de 30 km impedem qualquer adaptação aeróbia.",
+      "O aumento de volume sempre melhora o desempenho rapidamente.",
+    ],
+
+    resposta:
+      "O aumento pode ser grande demais para uma única semana e elevar o risco de excesso de carga.",
+
+    explicacao:
+      "Aumentos bruscos no volume podem dificultar a adaptação do organismo e elevar a carga de treinamento de maneira inadequada. A progressão deve considerar o histórico e a capacidade do corredor.",
+
+    motivacao:
+      "Na corrida, aumentar o volume gradualmente costuma ser uma estratégia mais sustentável do que tentar evoluir rapidamente.",
+  },
+
+  {
+    pergunta:
+      "7 ) Um corredor percebe que consegue manter o mesmo pace com uma frequência cardíaca menor depois de alguns meses de treinamento. Isso pode indicar:",
+
+    alternativas: [
+      "Piora obrigatória do condicionamento.",
+      "Maior esforço para realizar a mesma atividade.",
+      "Uma possível melhora da eficiência e do condicionamento aeróbio.",
+      "Redução da capacidade de sustentar esforços longos.",
+      "Necessariamente uma perda de resistência.",
+    ],
+
+    resposta:
+      "Uma possível melhora da eficiência e do condicionamento aeróbio.",
+
+    explicacao:
+      "Se as condições do treino forem semelhantes, conseguir manter o mesmo ritmo com menor frequência cardíaca pode ser um sinal de adaptação positiva ao treinamento aeróbio.",
+
+    motivacao:
+      "A evolução nem sempre aparece apenas em um pace mais rápido. Fazer o mesmo esforço com menor custo também pode representar progresso.",
+  },
+
+  {
+    pergunta:
+      "8 ) Em uma corrida de 10 km, qual estratégia tende a ser mais adequada para um corredor que busca um bom resultado?",
+
+    alternativas: [
+      "Começar muito acima do ritmo pretendido.",
+      "Correr sem considerar distância ou esforço.",
+      "Manter um ritmo controlado e ajustar o esforço conforme a prova avança.",
+      "Acelerar ao máximo nos primeiros 2 km.",
+      "Deixar todo o esforço para os últimos 100 metros.",
+    ],
+
+    resposta:
+      "Manter um ritmo controlado e ajustar o esforço conforme a prova avança.",
+
+    explicacao:
+      "Controlar o ritmo no início ajuda a evitar um gasto excessivo de energia e permite administrar melhor o esforço durante os 10 km.",
+
+    motivacao:
+      "Uma boa estratégia de prova combina condicionamento físico e controle do ritmo. Correr bem também é saber dosar o esforço.",
+  },
+
+  {
+    pergunta:
+      "9 ) Qual é uma função importante do descanso entre os treinos de corrida?",
+
+    alternativas: [
+      "Impedir qualquer adaptação ao treinamento.",
+      "Permitir recuperação e adaptação do organismo aos estímulos recebidos.",
+      "Garantir que todos os treinos seguintes sejam mais difíceis.",
+      "Substituir completamente uma alimentação adequada.",
+      "Eliminar a necessidade de treinos leves.",
+    ],
+
+    resposta:
+      "Permitir recuperação e adaptação do organismo aos estímulos recebidos.",
+
+    explicacao:
+      "O descanso permite que o organismo se recupere da carga do treinamento e realize processos de adaptação importantes para a evolução do corredor.",
+
+    motivacao:
+      "Treinar é dar o estímulo; recuperar-se é permitir que o corpo responda a ele. O equilíbrio entre os dois é fundamental.",
+  },
+
+  {
+    pergunta:
+      "10 ) Um corredor consegue correr 15 km em ritmo confortável, mas sente dificuldade para manter um ritmo muito mais rápido por vários quilômetros. Qual capacidade provavelmente precisa de maior desenvolvimento?",
+
+    alternativas: [
+      "Apenas flexibilidade.",
+      "Capacidade de sustentar intensidades mais elevadas.",
+      "Apenas equilíbrio corporal.",
+      "Somente velocidade de reação.",
+      "Apenas mobilidade dos braços.",
+    ],
+
+    resposta: "Capacidade de sustentar intensidades mais elevadas.",
+
+    explicacao:
+      "Conseguir correr uma distância longa confortavelmente demonstra boa capacidade de resistência, mas sustentar um ritmo significativamente mais rápido exige maior capacidade de manter intensidades elevadas.",
+
+    motivacao:
+      "Identificar suas limitações ajuda a escolher os estímulos certos para continuar evoluindo como corredor.",
   },
 ];

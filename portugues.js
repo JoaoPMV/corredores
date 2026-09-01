@@ -56,19 +56,7 @@ function mostrarPergunta() {
     question.appendChild(resultDIV);
     resultDIV.classList.add("resultDivCSS");
 
-    if (acertos === 0) {
-      resultDIV.textContent = `Você não acertou nenhuma pergunta. A leitura promove vocabulário, compreensão de texto, fluidez verbal e muitas outras habilidades. Você tem o hábito de ler livros?`;
-    } else if (acertos <= 3) {
-      resultDIV.textContent = `Você acertou três questões ou menos. A leitura promove vocabulário, compreensão de texto, fluidez verbal e muitas outras habilidades. Você tem o hábito de ler livros?`;
-    } else if (acertos <= 5) {
-      resultDIV.textContent = `Você acertou entre três e cinco questões. Fraco. Precisa ler mais.`;
-    } else if (acertos <= 7) {
-      resultDIV.textContent = `Você acertou entre seis e sete questões. Podemos dizer que você fala português razoavelmente`;
-    } else if (acertos <= 9) {
-      resultDIV.textContent = `Você acertou entre oito e nove questões. Faltou pouco para gabaritar. Você mostrou que fala português muito bem. O hábito da leitura parece estar bem presente em sua rotina. Continue assim. Novamente, parabéns.`;
-    } else if (acertos === 10) {
-      resultDIV.textContent = `Você acertou todas as perguntas. Poucos conseguem falar português tão bem quanto você. O hábito da leitura parece estar bem presente em sua rotina. Continue assim. Novamente, parabéns.`;
-    }
+    resultDIV.textContent = `Você acertou ${acertos} pergunta(s)`;
 
     result.innerHTML = "";
     result.textContent = "Teste encerrado";
