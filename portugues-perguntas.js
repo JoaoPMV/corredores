@@ -170,5 +170,3 @@ const perguntasPT = [
       "Compreender a diversidade linguística ajuda a evitar preconceitos e permite escolher a linguagem mais adequada para cada situação.",
   },
 ];
-
-export { perguntasPT };
