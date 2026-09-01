@@ -1,7 +1,7 @@
 const perguntasPT = [
   {
     pergunta:
-      'Leia: "Embora estivesse cansado, Pedro continuou estudando para a prova." Qual é a relação de sentido estabelecida por "embora"?',
+      '1 ) Leia: "Embora estivesse cansado, Pedro continuou estudando para a prova." Qual é a relação de sentido estabelecida por "embora"?',
     alternativas: [
       "Causa.",
       "Concessão.",
@@ -96,7 +96,7 @@ const perguntasPT = [
     ],
     resposta: "Personificação.",
     explicacao:
-      'O verbo "sussurrava" atribui ao vento uma característica própria de seres humanos. Essa atribuição de características humanas a seres não humanos é chamada de personificação.',
+      "Essa Atribuir de características humanas a seres não humanos é chamada de personificação.",
     motivacao:
       "As figuras de linguagem tornam os textos mais expressivos. Identificá-las ajuda você a perceber sentidos que vão além do significado literal.",
   },
@@ -157,7 +157,7 @@ const perguntasPT = [
       "Qual alternativa apresenta uma característica da variação linguística?",
     alternativas: [
       "A língua é utilizada exatamente da mesma maneira por todos os falantes.",
-      "Apenas a norma-padrão pode ser considerada uma forma legítima de comunicação.",
+      "Apenas a norma-padrão é considerada uma forma legítima de comunicação.",
       "A maneira de falar pode variar de acordo com região, grupo social e situação.",
       "As diferenças regionais indicam necessariamente erros gramaticais.",
       "A linguagem utilizada na internet é sempre inadequada.",
@@ -170,3 +170,5 @@ const perguntasPT = [
       "Compreender a diversidade linguística ajuda a evitar preconceitos e permite escolher a linguagem mais adequada para cada situação.",
   },
 ];
+
+export { perguntasPT };
